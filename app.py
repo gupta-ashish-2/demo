@@ -3,6 +3,7 @@ import uvicorn
 
 app = FastAPI()
 
-@app.get("/")
+@app.get("/eat")
 async def read_root():
+
     return {"Hello": "World"}   
